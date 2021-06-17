@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightseagreen;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  box-shadow: -19px 16px 36px -18px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: -19px 16px 36px -18px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -19px 16px 36px -18px rgba(0, 0, 0, 0.76);
+  /* height: 80vh; */
+  border-radius: 15px;
+  background-color: rgba(51, 51, 51, 0.5);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+}
+
+.title-container {
+  font-size: 20px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.input-container #input {
+  padding: 5px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: right;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-container #input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: -19px 16px 36px -18px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: -19px 16px 36px -18px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -19px 16px 36px -18px rgba(0, 0, 0, 0.76);
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  outline: none;
+  cursor: pointer;
+}
+
+.button-container .row {
+  display: flex;
+}
+
+.button-container .row button {
+  flex: 1;
+}
+
+.button-container #btnDel {
+  color: white;
+  background-color: red;
+}
+
+.button-container #btnAc {
+  background-color: green;
+  color: white;
+}
+
+.dark-button {
+  background-color: #010101;
+  color: white;
+}
